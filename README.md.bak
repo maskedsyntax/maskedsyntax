@@ -1,91 +1,88 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
+# Hii there 👋
 
-<p align="left">
-<a href="https://twitter.com/MairaAbhishek" target="_blank"><img height="30" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/png/twitter.png?raw=true"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/abhishek-maira/" target="_blank"><img height="30" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/linkedin.png?raw=true"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.instagram.com/abhishek_maira10/" target="_blank"><img height="30" src="https://image.flaticon.com/icons/svg/725/725278.svg"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://open.spotify.com/user/8q058td4ynjeztfx5io86m5pt" target="_blank"><img height="30" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/png/spotify.png?raw=true"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://marketplace.visualstudio.com/publishers/AbhishekMaira" target="_blank"><img height="30" src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/png/visual-studio.png?raw=true"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
-<br>
-
-Hi, I'm [Abhishek Maira](https://www.abhishekmaira.com/), a web and app developer 👨🏻‍💻 from India. I'm a creative problem solving enthusiast and a product guy, with a constantly growing love for kick ass products.I'm proud to say that **I can succesfully center an element with css.** Beside's Hacking stuff, I play chess ♘ and Fifa ⚽.
-I support Manchester United 👿 and Barcelona 😎.
-
-<br>
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+![visitors](https://komarev.com/ghpvc/?username=maskedsyntax&label=Profile%20views&color=0e75b6&style=flat)
 
 
-<!-- https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif -->
-<!-- <img align="right" height="250" width="400" alt="GIF" src="https://miro.medium.com/max/1360/1*IRGHmiGsa16stedQvIaZfw.gif" /> -->
+```go
+package main
 
-<img align="right" alt="GIF" src="https://media.giphy.com/media/3ohzdKvLT1DxFxhZAI/giphy.gif" />
+import "fmt"
 
- - 📫 How to reach me: [abhishekmaira1999@gmail.com](mailto:abhishekmaira1999@gmail.com);
- - 🔗 My website: [https://www.abhishekmaira.com/](https://www.abhishekmaira.com/)
- 
- <br>
+type Developer struct {
+	name        string
+	role        string
+	languages   []string
+	prevExp     string
+	currentFocus string
+}
 
- <p align="left"> <img src="https://komarev.com/ghpvc/?username=AbhishekMaira10" alt="AbhishekMaiara10" /> </p>
- 
- </br>
+func (d Developer) sayHi() {
+	fmt.Printf("Hi, I'm %s! I specialize in %s and have experience in %s. "+
+		"I'm currently focusing on %s while exploring how applied math and machine learning solve real-world problems. "+
+		"Thanks for visiting my GitHub!\n",
+		d.name, d.role, d.prevExp, d.currentFocus)
+}
 
-**Languages and Tools:**
-<br>
-
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
-<code><img height = "20" src = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height = "20" src = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height = "20" src = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+func main() {
+	dev := Developer{
+		name:        "Aftaab Siddiqui",
+		role:        "Software Development and Machine Learning",
+		languages:   []string{"Python", "C++", "Go", "Java"},
+		prevExp:     "Backend Development (Spring Boot) and Flutter for Cross-Platform Apps",
+		currentFocus: "Generative AI, Edge ML, Multimodal ML, and Graph ML",
+	}
+	dev.sayHi()
+}
+```
 
 
----
-### 📢 Find me elsewhere
-<p align="left">
-  <a href="https://www.codechef.com/users/abhimaira_10">
-    <img src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/codechef.svg" alt="codechef" style="vertical-align:top; margin:4px">
-  </a>&nbsp;&nbsp;&nbsp;
-  
-  <a href="https://leetcode.com/abhishekmaira1999/">
-    <img src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/leetcode.svg" alt="leetcode" style="vertical-align:top; margin:4px">
-  </a>&nbsp;&nbsp;&nbsp;
+> <code>➜ primary email: [aftaab@aftaab.xyz](mailto:aftaab@aftaab.xyz)</code><br>
+> <code>➜ Personal website and blog: [aftaab.xyz/blog](https://aftaab.xyz/blog)</code><br>
 
-  <a href="https://www.hackerrank.com/abhishekmaira191">
-    <img src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/hackerrank.svg" alt="hackerrank" style="vertical-align:top; margin:4px">
-  </a>&nbsp;&nbsp;&nbsp;
-  
-  <a href="https://www.codewars.com/users/abhimaira_10">
-    <img src="https://raw.githubusercontent.com/AbhishekMaira10/AbhishekMaira10/master/Resources/svg/codewars.svg" alt="codewars" style="vertical-align:top; margin:4px">
-  </a> &nbsp;&nbsp;&nbsp;
-</p>
+<!-- BLOG-POST-LIST:END -->
 
-<hr>
+## 🔧 Technologies & Tools
 
-<details>
-<summary>📈 My GitHub Stats</summary>
+**Programming Languages:**
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=AbhishekMaira10&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
+![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
+![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=cplusplus&logoColor=white&color=6aa6f8)
+![Golang](https://img.shields.io/badge/Backend-GoLang-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
+![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=coffeescript&logoColor=white&color=6aa6f8)
+![TypeScript](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8)
 
-</details>
 
-</br>
+**Frameworks & Libraries:**
 
-<a href="https://github.com/AbhishekMaira10/COVID-19-Tracker" target="_blank">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=AbhishekMaira10&repo=COVID-19-Tracker&theme=dracula" />
-</a>
-<a href="https://github.com/AbhishekMaira10/deldrone" target="_blank">
- <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=AbhishekMaira10&repo=deldrone&theme=dracula" />
-</a>
-<div align="center">
+![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot-informational?style=flat&logo=spring&logoColor=white&color=6aa6f8)
+![Flutter](https://img.shields.io/badge/Framework-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=6aa6f8)
+![TensorFlow](https://img.shields.io/badge/ML-TensorFlow-informational?style=flat&logo=tensorflow&logoColor=white&color=6aa6f8)
+![PyTorch](https://img.shields.io/badge/ML-PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=6aa6f8)
+![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-informational?style=flat&logo=scikit-learn&logoColor=white&color=6aa6f8)
+![NumPy](https://img.shields.io/badge/Library-NumPy-informational?style=flat&logo=numpy&logoColor=white&color=6aa6f8)
+![Pandas](https://img.shields.io/badge/Library-Pandas-informational?style=flat&logo=pandas&logoColor=white&color=6aa6f8)
 
-### Show some ❤️ by starring some of the repositories!
-</div>
+**Development Tools:**
+
+![Neovim](https://img.shields.io/badge/Editor-Neovim-informational?style=flat&logo=neovim&logoColor=white&color=6aa6f8)
+![Git](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
+![Linux](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8)
+![Zsh](https://img.shields.io/badge/Shell-Zsh-informational?style=flat&logo=gnu-bash&logoColor=white&color=6aa6f8)
+
+**Databases:**
+
+![MySQL](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6aa6f8)
+![SQLite](https://img.shields.io/badge/Database-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=6aa6f8)
+
+**Machine Learning Areas:**
+
+![Generative AI](https://img.shields.io/badge/ML-Generative_AI-informational?style=flat&logo=ai&logoColor=white&color=6aa6f8)
+![Edge ML](https://img.shields.io/badge/ML-Edge_ML-informational?style=flat&logo=ai&logoColor=white&color=6aa6f8)
+![Multimodal ML](https://img.shields.io/badge/ML-Multimodal_ML-informational?style=flat&logo=ai&logoColor=white&color=6aa6f8)
+![Graph ML](https://img.shields.io/badge/ML-Graph_ML-informational?style=flat&logo=ai&logoColor=white&color=6aa6f8)
+
+
+## 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=maskedsyntax&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
