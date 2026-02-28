@@ -24,7 +24,7 @@ class MaskedSyntax(torch.nn.Module):
     def forward(self, signal):
         return signal
 
-MaskedSyntax()(torch.tensor(2025))
+MaskedSyntax()(torch.tensor(2026))
 ```
 
 > <code>➜ primary email: [aftaab@aftaab.xyz](mailto:aftaab@aftaab.xyz)</code><br>
