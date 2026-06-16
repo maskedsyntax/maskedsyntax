@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kyechan99/kyechan99/master/assets/cozy.gif" width="600" />
+</p>
+
 # Aftaab Siddiqui
 
 Product Engineer at [Launchdoor](https://launchdoor.studio). I build software for Apple platforms, the web, and the desktop.
