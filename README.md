@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kyechan99/kyechan99/master/assets/cozy.gif" width="600" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/Work%20Culture%20(HD%20Visuals)/Coding.gif" width="600" />
 </p>
 
 # Aftaab Siddiqui
