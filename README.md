@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="Resources/png/header-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="Resources/png/header-light.png">
-    <img alt="Aftaab Siddiqui" src="Resources/png/header-light.png" width="600">
+    <source media="(prefers-color-scheme: dark)" srcset="Resources/png/header-light.png">
+    <source media="(prefers-color-scheme: light)" srcset="Resources/png/header-dark.png">
+    <img alt="Aftaab Siddiqui" src="Resources/png/header-dark.png" width="600">
   </picture>
 </p>
 
