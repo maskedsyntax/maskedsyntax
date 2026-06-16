@@ -1,33 +1,93 @@
 # Aftaab Siddiqui
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-![visitors](https://komarev.com/ghpvc/?username=maskedsyntax&label=Profile%20views&color=0e75b6&style=flat)
+Product Engineer at [Launchdoor](https://launchdoor.studio). Building apps, shipping products, and occasionally disappearing into a rabbit hole of side projects.
 
-```rust
-struct MaskedSyntax {
-    name: &'static str,
-    stack: &'static [&'static str],
-    focus: &'static [&'static str],
-}
-
-impl MaskedSyntax {
-    fn new() -> Self {
-        Self {
-            name: "Aftaab Siddiqui",
-            stack: &["Rust", "Go", "TypeScript", "Python"],
-            focus: &["Full-stack", "Infrastructure", "Systems"],
-        }
-    }
+```swift
+struct Aftaab {
+    let role = "Product Engineer"
+    let studio = "Launchdoor"
+    
+    let currentlyBuilding = [
+        "Patterns",
+        "Steepr",
+        "Tickle",
+        "LofiKofi"
+    ]
+    
+    let technologies = [
+        "Swift",
+        "Flutter",
+        "Rust",
+        "Go",
+        "TypeScript",
+        "Python"
+    ]
+    
+    let interests = [
+        "Local-first software",
+        "Native apps",
+        "Developer tools",
+        "AI-assisted products"
+    ]
 }
 ```
 
-I build tools for the web and the terminal. I focus on making software that is simple to use but engineered for scale. Usually full stack products, developer infrastructure, and systems engineering.
+## What I Do
 
-**Products:** [Trelay](https://trelay.dev) / [Botttle](https://botttle.dev) / [FolioMint](https://foliomint.site) / [LofiKofi](https://lofikofi.space) / [Patterns](https://patterns.maskedsyntax.com)  
-**Labs & Tools:** [RepoGrep](https://repogrep.maskedsyntax.com) / [GenePrint](https://geneprint.maskedsyntax.com) / [HashPrep](https://hashprep.com) / [fuzzybunny](https://github.com/cachevector/fuzzybunny) / [crunch](https://github.com/maskedsyntax/crunch) / [tinyvm](https://github.com/maskedsyntax/tinyvm)
+I build software for Apple platforms, the web, and the desktop.
+
+Most of my work revolves around:
+
+- Native iOS, macOS and watchOS apps
+- Local-first applications
+- AI-powered tools
+- Full-stack product development
+- Developer tooling
+
+I enjoy taking products from idea -> design -> code -> launch.
 
 ---
 
-Rust, C++, Python, Go, TypeScript, React, Next.js, Svelte, Tailwind, Flutter, FastAPI, Node.js, Docker, Postgres.
+## Products
 
-[Email](mailto:aftaab@aftaab.xyz) / [Website](https://maskedsyntax.com) / [Twitter](https://x.com/aftaab___) / [LinkedIn](https://www.linkedin.com/in/aftaabsiddiqui/)
+### Patterns
+A privacy-first OCD journaling app focused on ERP and reflection.
+
+### Steepr
+A tea timer for iPhone and Apple Watch.
+
+### Tickle
+A simple counter app for tracking anything.
+
+### LofiKofi
+Ambient sounds and focus sessions for deep work.
+
+### Queriously
+A local-first PDF reader with AI-powered chat.
+
+---
+
+## Tech I Enjoy Working With
+
+Swift / Flutter / Rust / Go / TypeScript / Python
+
+SvelteKit / React / Next.js / FastAPI / Spring Boot
+
+SQLite / PostgreSQL / Docker / Tauri
+
+---
+
+## Current Goal
+
+Ship useful software consistently and learn how to get it into the hands of people who need it.
+
+---
+
+## Links
+
+- Portfolio: https://aftaab.dev
+- Studio: https://launchdoor.studio
+- Digital Garden: https://maskedsyntax.com
+- Twitter/X: https://x.com/aftaab___
+- LinkedIn: https://linkedin.com/in/aftaabsiddiqui
+- Email: [aftaab@aftaab.dev](mailto:aftaab@aftaab.dev)
